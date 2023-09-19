@@ -1,0 +1,551 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.stats {
+  background-image: url("../images/bg-img.png");
+  padding: 150px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.space {
+  margin: 100px 0;
+}
+
+.about-company.row .col-lg-6 {
+  padding: 0 !important;
+}
+
+.about-company.row .col-lg-6:last-child {
+  padding-left: 80px !important;
+}
+
+.heading-before::before {
+  content: "";
+  display: block;
+  background: url("../images/heading-before.png") no-repeat;
+  width: 70px;
+  height: 3px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+.about-company h3 {
+  font-size: 50px;
+  width: 65%;
+}
+
+.card-overlay .card-img-overlay {
+  left: 0;
+  margin: auto;
+  right: 0;
+  text-align: center;
+  top: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-overlay .card-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.OUREXCELLENCE {
+  background-image: url(./images/OUR-EXCELLENCE.svg );
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
+}
+
+footer .container-fluid {
+  background-color: black !important;
+  color: white;
+}
+
+footer form .form-group {
+  margin-bottom: 20px;
+}
+
+footer form .form-group input {
+  padding: 10px 15px;
+  border-radius: 0;
+}
+
+footer textarea.form-control {
+  border-radius: 0;
+}
+
+.heading-before {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-caption h3 {
+  font-family: STIX two text;
+  font-style: italic;
+  font-size: 70px;
+}
+
+.carousel-caption h4 {
+  font-family: spirax;
+  font-size: 50px;
+}
+
+.border {
+  border: none !important;
+}
+
+.navbar .btn-secondary {
+  background-color: transparent;
+  border: none;
+}
+
+.input-group span {
+  background-color: transparent;
+}
+
+footer h5.text-uppercase {
+  padding-right: 25px;
+}
+
+footer .form-group button a {
+  font-weight: 700;
+  border-radius: 0;
+  color: black;
+}
+
+footer .form-group button {
+  width: 45%;
+}
+
+.OUREXCELLENCE .container .col div img {
+  padding-right: 10px;
+  width: 40px;
+  height: 25px;
+}
+
+.OUREXCELLENCE .container .col div {
+  margin-bottom: 10px;
+}
+
+.Residential-properties .bg-white,
+.text-white {
+  color: black;
+  font-family: "Vibur", cursive;
+  font-weight: 500;
+  padding-top: 20px;
+  background-color: unset;
+}
+
+.text-white {
+  padding-top: 0;
+  font-size: 20px;
+}
+
+.stats p {
+  font-family: open sans;
+  color: #b1b1b1;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.stats span {
+  font-family: open sans;
+  color: #3f4448;
+  font-size: 38px;
+  font-weight: 700;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.stats .col-md-6::before {
+  content: "";
+  display: block;
+  background: url("./images/heading-before2.png") no-repeat;
+  width: 70px;
+  height: 3px;
+  margin: 0 6px 0 0;
+}
+
+.stats .col-md-6 {
+  display: flex;
+  align-items: baseline;
+}
+
+.about-company .justify-content-center a {
+  padding: 12px 20px;
+  border: 2px solid #f69323;
+  color: black;
+  font-weight: 700;
+  border-radius: 0%;
+}
+
+.stats .col-md-6:first-child:before {
+  display: none;
+}
+
+.navbar .inquire-now a {
+  padding: 17px;
+  background-color: black;
+  color: #f69323;
+  font-weight: 600;
+}
+
+.navbar .nav-link {
+  font-size: unset;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav li.active a {
+  color: orange;
+  border-bottom: 1px solid;
+}
+
+.about-company button {
+  background-color: unset;
+  border: none;
+  text-align: start;
+}
+
+.about-company p {
+  max-width: 600px;
+}
+
+.carousel-indicators li {
+  display: none;
+}
+
+.carousel-caption P {
+  font-size: 17px;
+  max-width: 520px;
+  margin: 25px 0;
+}
+
+.carousel-caption a {
+  color: white;
+  padding: 15px 20px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.carousel-caption-main {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 7;
+  align-items: center;
+}
+
+.carousel-caption {
+  position: unset;
+  padding: 0;
+  text-align: unset;
+}
+
+.container {
+  max-width: 1271px;
+}
+
+.Residential-properties,
+.commercial-properties,
+.blog {
+  margin: 0 auto !important;
+  max-width: 1137px !important;
+}
+
+.OUREXCELLENCE .row .col {
+  box-shadow: 2px 2px 10px #aaaa;
+  margin: 0 10px;
+  padding: 30px;
+}
+
+.social-media a {
+  margin-left: 10px;
+}
+
+.about-company {
+  background-color: #fbfbfb;
+}
+
+.navbar-nav .inquire-now {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+footer .social-media {
+  display: none !important;
+}
+
+.Residential-properties .container,
+.blog {
+  padding: 0;
+}
+
+footer .container,
+footer .container .row div,
+footer .container .row form {
+  padding: 0;
+}
+
+.main-header nav {
+  background-color: #343a40;
+}
+
+/* home page  */
+@media only screen and (max-width: 1800px) {.stats {background-image: none;padding: 20px 0;background-color: #fcfcfc;}}
+
+@media only screen and (max-width: 991px) {.navbar {padding: 0.5rem 1rem !important;}}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .commercial-properties div:first-child {padding-top: 0 !important;}
+  .Residential-properties .row,.commercial-properties .row {flex-wrap: nowrap !important;}
+  .commercial-properties .card-overlay .card-img-overlay {padding: 5px;}
+  .commercial-properties .text-white,.Residential-properties .bg-white {font-size: 15px !important;}}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  footer .container .row {display: block;}
+  .OUREXCELLENCE {background-image: none;}
+  .container {max-width: 700px;}
+  .navbar .inquire-now a {padding: 14px;}
+  .stats .col-md-6::before {display: none;}
+  .commercial-properties {margin-bottom: 0 !important;}
+  .navbar .container {justify-content: end !important;}
+  .Residential-properties {padding-top: 0 !important;}}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .container {max-width: 990px !important;}}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1800px) {
+  .OUREXCELLENCE {background-image: none;}
+  .about-company.row .col-lg-6 {display: block;}
+  .about-company h3 {font-size: 18px;width: 100%;}
+  footer .container-fluid {padding-left: 10px !important;padding-right: 10px !important;}}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {.space {margin: 0;}
+  .about-company {background-color: #f0f0f0;padding: 30px 15px;}
+  .top-header .container .row {text-align: center;}
+  .about-company .justify-content-center a {padding: 7px 15px;font-size: 12px;margin-bottom: 10px;}
+  .about-company.row .col-lg-6 {width: 50%;}
+  .about-company h3 {font-size: 18px;width: 100%;}
+  .space {margin: 30px 0;}}
+
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .about-company.row .col-lg-6:last-child {padding-left: 50px !important;}
+  .about-company h3 {font-size: 18px;width: 100%;}
+  .blog .row {flex-wrap: nowrap !important;}}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top-header .logo {order: 1;text-align: start;}
+  .top-header .address {order: 3;}
+  .top-header .social-media {order: 2;padding: 0 15px !important;}
+  .blog h5::before {display: none;}
+  .main-header nav button {background-color: white !important;padding: 10px;}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .OUREXCELLENCE .container {max-width: 700px;}
+  .OUREXCELLENCE .container .row .col {margin-top: 20px !important;}
+  .OUREXCELLENCE {margin: 0;}
+  footer .container .col-lg-5 .col {display: block !important;}
+  .space {margin: 30px 0;}
+  footer {margin-top: 0 !important;}
+  .OUREXCELLENCE .col {flex-basis: unset;}
+  .container {max-width: 700px !important;}
+  .about-company {background-color: #fcfcfc;}
+  .navbar .inquire-now a {padding: 14px;}
+  .about-company.row .col-lg-6:last-child {padding: 25px 5px !important;}
+  .about-company h3 {font-size: 24px;width: 100%;text-align: center;}
+  .heading-before {padding-bottom: 10px !important;justify-content: center;}
+  .about-company p {font-size: 15px;text-align: center;}
+  .about-company .justify-content-center a {padding: 7px;font-size: 11px;text-align: center;}
+  .commercial-properties .heading-before {margin-bottom: 10px !important;}
+  .commercial-properties h3,.Residential-properties h3 {font-size: 20px;text-align: center !important;}
+  .commercial-properties p,.Residential-properties p {text-align: center !important;}
+  .commercial-properties div:first-child {padding-top: 20px;margin-bottom: 0 !important;}
+  .commercial-properties .container .col-lg-4 {margin-bottom: 10px !important;}
+  .Residential-properties .bg-white {font-size: 17px;padding: 10px 0;}
+  .OUREXCELLENCE h5,.OUREXCELLENCE p {margin-bottom: 0 !important;}
+  .OUREXCELLENCE {padding-top: 0 !important;}
+  .OUREXCELLENCE .row.mb-5 {margin-bottom: 0 !important;}
+  .blog h5 {font-size: 15px;}
+  .blog h2 {font-size: 20px;margin-bottom: 20px !important;}
+  .about-company button {text-align: center;}
+  .Residential-properties h5 {margin-bottom: 0 !important;}
+  .Residential-properties .mb-5 {margin-bottom: 0 !important;padding: 20px 0;}
+  footer .social-media {display: block !important;}
+  .top-header .social-media {display: none !important;}
+  .top-header .address {display: none !important;}
+  .main-header {position: relative;}
+  .main-header nav {position: absolute;right: 0;top: 26px;background: none;}
+  .commercial-properties a,.Residential-properties a {width: 35% !important;}
+  .navbar-collapse {background-color: black;}
+  .blog h5::before {display: none;}}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .top-header .container .row div.col-sm-12 .text-uppercase:first-child {text-align: center !important;}
+  .top-header .container .row div.col-sm-12 .d-flex {justify-content: start;}}
+/* home page  */
+
+
+
+
+
+/* contact us */
+.contact img {width: fit-content;border: 1px solid #E5EAF2;padding: 25px;border-radius: 50px;}
+.contact h3 {font-size: 23px;font-weight: 600;}
+.contact .col-lg-4 {text-align: center;box-shadow: 0 0 15px #aaaa;}
+.contact_info{width: 100%;padding-top: 70px;}
+.contact_info_item{width: calc((100% - 60px) / 3);border: solid 1px #e8e8e8;box-shadow: 0px 1px 5px rgba(0,0,0,0.1);padding: 40px;}
+.contact_info_image{text-align: center;padding: 20px;border: 1px solid #E5EAF2;border-radius: 50px;width: 82px;height: 82px;margin: 0 auto;display: flex;background: #F9FBFE;}
+.contact_info_content {text-align: center;margin-top: 25px;}
+.contact_info_image img{max-width: 100%;}
+.contact_info_title{font-weight: 500;}
+.contact_form{padding-top: 85px;}
+.contact_form_title{font-size: 30px;font-weight: 500;margin-bottom: 24px;margin-top: 15px;}
+.contact_form_inputs{margin-bottom: 30px;}
+.input_field{width: 49%;height: 50px;padding-left: 25px;border: solid 1px #e5e5e5;border-radius: 5px;outline: none;}
+.text_field{width: 100%;height: 160px;padding-left: 25px;padding-top: 15px;border: solid 1px #e5e5e5;border-radius: 5px;outline: none;}
+.contact_submit_button{padding-left: 35px;padding-right: 35px;color: #FFFFFF;font-size: 18px;border: none;outline: none;cursor: pointer;margin-top: 24px;}
+.contact_form .col-lg-8 {border: 1px solid #E5EAF2;padding: 0;}
+.contact_form .contact_form_container {padding: 0 30px;}
+.contact_form .form-control {height: 52px;}
+#inputAddress {height: 121px;}
+.contact_form .contact_form_container form button {background-color: #143A5E;border-radius: 5px;padding:16px 50px;border: none;margin-bottom: 15px;}
+.contact_form .contact_form_container form button a {color: white;font-size: 18px;}
+.contact_form_container label {font-size: 16px;color: #868686;font-weight: 600;}
+.contact_form_container label span {color: #F56C6C;}
+.contact_form_container .contact_form_title {color: #143A5E;font-size: 22px;font-weight: 600;}
+#map-container-google-1 iframe {height: 55vh;}
+@media only screen and (max-width: 991px) {.contact_info_item{width: 100%;margin-bottom: 30px;} .contact_info_item:last-child{margin-bottom: 0px;}}
+@media only screen and (max-width: 767px) {.input_field{margin-bottom: 30px;width: 100%;} .input_field:last-child{margin-bottom: 0px;}}
+@media only screen and (max-width: 575px) {.contact_submit_button{font-size: 13px;padding-left: 25px;padding-right: 25px;}}
+@media only screen and (min-width: 320px) and (max-width: 991px) {.contact_form .col-lg-4 {padding: 0;margin-top: 50px;}}
+/* contact us */
+
+
+
+
+
+/* about us */
+.container {max-width:1140px;}
+.heroContent {position: absolute;top: 50%;left: 20%;}
+.heroContent h1 {font-family: STIX TWO TEXT;font-style: italic;font-size: 70px;color: white;}
+.about-main .img-one img {margin-right: 20px;}
+.about-main .img-two img:first-child {margin-bottom: 20px;}
+.about-main h2 {font-size: 35px;font-weight: 600;width: 386px;}
+.about-main p {font-size: 16px;width: 400px;color: #707070;}
+.about-main ul {list-style-type: none;margin: 0;padding: 0;}
+.about-main li {margin-bottom: 15px;}
+.about-main ul li::before {content: "";display: block;background: url(../images/about-vector.svg) no-repeat;width: 25px;height: 16px;float: left;margin: 6px 6px 0 0}
+.about-main button {background-color: #143A5E;border: none;width: 40%;padding: 5px 10px;}
+.about-main a {color: white;}
+.our-service img, .location img {width: auto;margin-bottom: 50px;}
+.our-service .card-overlay {text-align: center;padding: 50px;box-shadow: 0 0 15px #aaaa;}
+.our-service h3, .location h3 {color: #143A5E;font-size: 19px;font-weight: 700;text-transform: uppercase;}
+.our-service .heading-before::before, .location .heading-before::before {margin: 12px 6px 0 0;}
+/* .location {background-image: url(../images/location.svg);} */
+.testimonial img {position: absolute;top: 10px;left: 33%;}
+.testimonial .col-lg-4 {position: relative;width: 500px;padding-top: 50px;}
+.testimonial .col-lg-4 .white-box {box-shadow: 0 0 15px #aaaa;padding: 20px;padding-top: 50px;}
+.page-heading .row .col-sm-12 {background-image: url(../images/about-us-head.svg);width: 100%;padding: 0;height: 100vh;height: 35vh;}
+.our-service .card-overlay .card-img {width: auto;}
+.location .card-overlay .card-img {width: auto;}
+/* about us */
+
+
+
+
+
+/* listing css */
+.project-main h3 {font-size: 35px;}
+.Amenities {background-color: #F4F4F4;padding: 80px 0;}
+.Amenities .col {text-align: center;}
+.container-fluid .container .carousel-inner {background-image: url(../images/OUR-EXCELLENCE.png);width: 100%;height: 100vh;}
+#proj-cont{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between}
+#proj-cont .img-cont {position: relative;width: 350px;height: 250px;}
+#proj-cont  .overlay {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0);transition: background 0.5s ease;}
+#proj-cont .img-cont:hover .overlay {display: block;background: rgba(0, 0, 0, .3);}
+#proj-cont img {position: absolute;width: 350px;height: 250px;left: 0;border-radius: 5px;transition: all 1s;}
+#proj-cont img:hover{transform: scale(1.1);}
+#proj-cont .title {position: absolute;width: 250px;left: 0;top: 120px;font-weight: 700;font-size: 30px;text-align: center;text-transform: uppercase;color: white;z-index: 1;transition: top .5s ease;}
+#proj-cont .img-cont:hover .title {top: 90px;}
+#proj-cont .button {position: absolute;width: 100%;left:0;top: 120px;text-align: center;opacity: 0;transition: opacity .35s ease;}
+#proj-cont .button a {width: 200px;padding: 8px 20px;text-align: center;font-family: 'Gloria Hallelujah', cursive;color: white;z-index: 1;text-decoration: none;background-color: #D2EDF8;}
+#proj-cont .img-cont:hover .button {opacity: 1;}
+#proj-cont .button.btn-search a img  {width: 21px;height: 20px;left: 47%;}
+#myTab.nav-tabs {border: none;}
+.nav-tabs .nav-link.active {color: #fff;background-color: #143A5E;}
+.nav-tabs .nav-link {color: #143A5E;border:1px solid #143A5E;margin-right: 25px;width: 100px;height: 45px;text-align: center;border-radius: 0;text-transform: uppercase;font-weight: 600;}
+.map-responsive{overflow:hidden;padding-bottom:50%;position:relative;height:0;}
+.map-responsive iframe{left:0;top:0;height:50%;width:100%;position:absolute;}
+.container-fluid.plan {background-image: url(../images/plan-bg-1.svg);}
+.carousel-control-prev-icon {background-image: url(../images/left-arrow.png);}
+.carousel-control-next-icon {background-image: url(../images/right-arrow.png);}
+/* listing css */
+
+
+
+/* resedential css */
+.projects p {margin-bottom: 40px;color: #707070;font-size: 16px;}
+.ongoing-projects {background-color: #F4F6FD;position: relative;height: 400px;}
+.centered button {position: absolute;bottom: 15px;right: 16px;background: none;border: none;padding: 0;}
+.centered button a {padding: 10px 15px;background-color: #143A5E;color: white;font-size: 16px;font-weight: 600;border-radius: 3px;}
+.card-img-top {position: relative;}
+.card-deck .card, .centered {position: relative;}
+.card-body ul {margin: 0;padding: 0;margin-bottom: 25px;}
+.card-body ul li::before {content: "";display: block;width: 27px;height: 26px;float: left;margin: 0 15px 0 0;}
+.card-body ul li {list-style-type: none;display: flex;}
+.card-body ul li.location::before{background: url(../images/location-home.svg) no-repeat;width: 51px;}
+.card-body ul li.house::before{background: url(../images/house.svg) no-repeat;}
+.card-body ul li:first-child {margin-bottom: 20px;}
+.view-more a {padding: 10px 15px;background-color: #143A5E;color: white;font-size: 16px;font-weight: 600;border-radius: 3px;}
+.view-more {background: none;border: none;padding: 0;}
+.projects {margin-top: 80px;margin-bottom: 80px;}
+.ongoing-projects:before {content: '';background-color: #F4F6FD;left: 0;top: 0;height: 100%;width: 100%;max-height: 532px;}
+/* @media only screen and (min-width: 500px) and (max-width: 1000px) {.top-header .container .row div {display: flex !important;}} */
+@media only screen and (min-width: 320px) and (max-width: 991px) {.contact_form .col-lg-4 {padding: 0;margin-top: 50px;}}
+@media only screen and (min-width: 320px) and (max-width: 1000px) {.page-heading img {background-image: url(../images/about-us-head-res.svg);}.navbar .inquire-now a {padding: 14px;}.ongoing-projects {height: unset;}}
+@media only screen and (min-width: 320px) and (max-width: 767px) {.about-company {background-color: #fcfcfc;}.navbar .inquire-now a {padding: 14px;}.ongoing-projects:before {display: none;}.ongoing-projects {height: unset;}}
+@media only screen and (min-width: 320px) and (max-width: 800px) {.card-deck {flex-flow: column;}.card-deck .card {margin-bottom: 30px;}.card-body ul li.location::before {width: 63px;}}
+/* resedential css */

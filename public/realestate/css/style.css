@@ -1,0 +1,350 @@
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  .stats {
+      background-image: url("../images/bg-img.png");
+      padding: 150px 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .bg-img {
+      background-image: url("../images/Group\ 438.png");
+  }
+
+  .space {
+      margin: 100px 0;
+  }
+
+  .about-company.row .col-lg-6 {
+      padding: 0 !important;
+  }
+
+  .about-company.row .col-lg-6:last-child {
+      padding-left: 80px !important;
+  }
+
+  .heading-before::before {
+      content: "";
+      display: block;
+      background: url("../images/heading-before.png") no-repeat;
+      width: 70px;
+      height: 3px;
+      float: left;
+      margin: 0 6px 0 0;
+  }
+
+  .about-company h3 {
+      font-size: 50px;
+      width: 65%;
+  }
+
+  .card-overlay .card-img-overlay {
+      left: 0;
+      margin: auto;
+      right: 0;
+      text-align: center;
+      top: auto;
+      background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .card-overlay .card-img {
+      object-fit: cover;
+      width: 100%;
+  }
+
+  .card {
+      border-radius: 0;
+  }
+
+  .OUREXCELLENCE {
+      background-image: url(../images/OUR-EXCELLENCE.png);
+  }
+
+  .navbar .navbar-brand {
+      font-size: 30px;
+  }
+
+
+  .navbar .nav-link {
+      font-size: 20px;
+      margin-left: 10px;
+  }
+
+  .fa-bars {
+      color: #007bff;
+      font-size: 30px;
+  }
+
+  footer .container-fluid {
+      background-color: black !important;
+      color: white;
+  }
+
+  footer form .form-group {
+      margin-bottom: 20px;
+  }
+
+  footer form .form-group input {
+      padding: 10px 15px;
+      border-radius: 0;
+  }
+
+  footer textarea.form-control {
+      border-radius: 0;
+  }
+
+  .heading-before {
+      display: flex;
+      align-items: center;
+  }
+
+
+  .carousel-caption {
+      text-align: start;
+  }
+
+  .border {
+      border: none !important;
+  }
+
+  .navbar .btn-secondary {
+      background-color: transparent;
+      border: none;
+  }
+
+  .input-group span {
+      background-color: transparent;
+  }
+
+  footer h5.text-uppercase {
+      padding-right: 25px;
+  }
+
+  footer .form-group button a {
+      font-weight: 700;
+      border-radius: 0;
+      color: black;
+  }
+
+  footer .form-group button {
+      width: 45%;
+  }
+
+  .OUREXCELLENCE .container .col div img {
+      padding-right: 10px;
+      width: 40px;
+      height: 25px;
+  }
+
+  .OUREXCELLENCE .container .col div {
+      margin-bottom: 10px;
+  }
+
+  .Residential-properties .bg-white,
+  .text-white {
+      color: black;
+      font-family: 'Vibur', cursive;
+      font-weight: 500;
+      padding-top: 20px;
+      background-color: unset;
+  }
+
+  .text-white {
+      padding-top: 0;
+      font-size: 20px;
+  }
+
+  .stats p {
+      font-family: open sans;
+      color: #B1B1B1;
+      font-weight: 500;
+      font-size: 15px;
+  }
+
+  .stats span {
+      font-family: open sans;
+      color: #3F4448;
+      font-size: 38px;
+      font-weight: 700;
+      display: flex;
+      align-items: end;
+      justify-content: center;
+  }
+
+  .stats .col-md-6::before {
+      content: "";
+      display: block;
+      background: url("../images/heading-before2.png") no-repeat;
+      width: 70px;
+      height: 3px;
+      margin: 0 6px 0 0;
+  }
+
+  .stats .col-md-6 {
+      display: flex;
+      align-items: baseline;
+  }
+
+  .about-company .justify-content-center a {
+      padding: 15px 30px;
+      border: 1px solid;
+      color: black;
+      font-weight: 500;
+  }
+
+  .stats .col-md-6:first-child:before {
+      display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+      footer .container .row {
+          display: block;
+      }
+
+      .stats {
+          background-image: none;
+      }
+
+      .OUREXCELLENCE {
+          background-image: none;
+      }
+
+      .container {
+          max-width: 700px;
+      }
+      .top-header .container .row {
+        display: block !important;
+        text-align: center;
+    }
+
+    .top-header .container .row div {
+        width: 100%;
+        margin: 0;
+    }
+  }
+
+
+
+
+
+  @media only screen and (min-width: 992px) and (max-width: 1800px) {
+      .stats {
+          background-image: none;
+      }
+
+      .OUREXCELLENCE {
+          background-image: none;
+      }
+
+      .about-company.row .col-lg-6 {
+          display: block;
+      }
+
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .space {
+          margin: 50px 0 !important;
+      }
+
+      .container {
+          max-width: 900px !important;
+      }
+
+      .about-company {
+          background-color: #fcfcfc;
+      }
+      .top-header .container .row {
+        /* display: block !important; */
+        text-align: center;
+    }
+
+    .top-header .container .row div {
+        width: 100%;
+        margin: 0;
+        /* display: block !important; */
+        text-align: center !important;
+    }
+
+  }
+
+
+
+
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+      .OUREXCELLENCE .container {
+          max-width: 700px;
+      }
+
+      .OUREXCELLENCE .container .row .col {
+          margin-top: 20px !important;
+      }
+
+      .OUREXCELLENCE {
+          margin: 0;
+      }
+
+      footer .container .col-lg-5 .col {
+          display: block !important;
+      }
+
+      .space {
+          margin: 50px 0;
+      }
+
+      footer {
+          margin-top: 0 !important;
+      }
+
+      .OUREXCELLENCE .col {
+          flex-basis: unset;
+      }
+
+      .container {
+          max-width: 700px !important;
+      }
+
+      .about-company {
+          display: block;
+          background-color: #fcfcfc;
+      }
+
+      .top-header .container .row {
+          display: block !important;
+          text-align: center;
+      }
+
+      .top-header .container .row div {
+          width: 100%;
+          margin: 0;
+          display: block !important;
+          text-align: center !important;
+      }
+  }

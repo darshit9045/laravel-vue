@@ -1,0 +1,614 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.stats {
+  background-image: url("../images/bg-img.png");
+  padding: 150px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-img {
+  background-image: url("../images/Group\ 438.png");
+}
+
+.space {
+  margin: 100px 0;
+}
+
+.about-company.row .col-lg-6 {
+  padding: 0 !important;
+}
+
+.about-company.row .col-lg-6:last-child {
+  padding-left: 80px !important;
+}
+
+.heading-before::before {
+  content: "";
+  display: block;
+  background: url("../images/heading-before.png") no-repeat;
+  width: 70px;
+  height: 3px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+.about-company h3 {
+  font-size: 50px;
+  width: 65%;
+}
+
+.card-overlay .card-img-overlay {
+  left: 0;
+  margin: auto;
+  right: 0;
+  text-align: center;
+  top: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-overlay .card-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.OUREXCELLENCE {
+  background-image: url(../images/OUR-EXCELLENCE.svg);
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
+}
+
+footer .container-fluid {
+  background-color: black !important;
+  color: white;
+}
+
+footer form .form-group {
+  margin-bottom: 20px;
+}
+
+footer form .form-group input {
+  padding: 10px 15px;
+  border-radius: 0;
+}
+
+footer textarea.form-control {
+  border-radius: 0;
+}
+
+.heading-before {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-caption h3 {
+  font-family: STIX two text;
+  font-style: italic;
+  font-size: 70px;
+}
+
+.carousel-caption h4 {
+  font-family: spirax;
+  font-size: 50px;
+}
+
+.border {
+  border: none !important;
+}
+
+.navbar .btn-secondary {
+  background-color: transparent;
+  border: none;
+}
+
+.input-group span {
+  background-color: transparent;
+}
+
+footer h5.text-uppercase {
+  padding-right: 25px;
+}
+
+footer .form-group button a {
+  font-weight: 700;
+  border-radius: 0;
+  color: black;
+}
+
+footer .form-group button {
+  width: 45%;
+}
+
+.OUREXCELLENCE .container .col div img {
+  padding-right: 10px;
+  width: 40px;
+  height: 25px;
+}
+
+.OUREXCELLENCE .container .col div {
+  margin-bottom: 10px;
+}
+
+.Residential-properties .bg-white,
+.text-white {
+  color: black;
+  font-family: "Vibur", cursive;
+  font-weight: 500;
+  padding-top: 20px;
+  background-color: unset;
+}
+
+.text-white {
+  padding-top: 0;
+  font-size: 20px;
+}
+
+.stats p {
+  font-family: open sans;
+  color: #b1b1b1;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.stats span {
+  font-family: open sans;
+  color: #3f4448;
+  font-size: 38px;
+  font-weight: 700;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.stats .col-md-6::before {
+  content: "";
+  display: block;
+  background: url("../images/heading-before2.png") no-repeat;
+  width: 70px;
+  height: 3px;
+  margin: 0 6px 0 0;
+}
+
+.stats .col-md-6 {
+  display: flex;
+  align-items: baseline;
+}
+
+.about-company .justify-content-center a {
+  padding: 12px 20px;
+  border: 2px solid #f69323;
+  color: black;
+  font-weight: 700;
+  border-radius: 0%;
+}
+
+.stats .col-md-6:first-child:before {
+  display: none;
+}
+
+.navbar .inquire-now a {
+  padding: 17px;
+  background-color: black;
+  color: #f69323;
+  font-weight: 600;
+}
+
+.navbar .nav-link {
+  font-size: unset;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav li.active a {
+  color: orange;
+  border-bottom: 1px solid;
+}
+
+.about-company button {
+  background-color: unset;
+  border: none;
+  text-align: start;
+}
+
+.about-company p {
+  max-width: 600px;
+}
+
+.carousel-indicators li {
+  display: none;
+}
+
+.carousel-caption P {
+  font-size: 17px;
+  max-width: 520px;
+  margin: 25px 0;
+}
+
+.carousel-caption a {
+  color: white;
+  padding: 15px 20px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.carousel-caption-main {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 7;
+  align-items: center;
+}
+
+.carousel-caption {
+  position: unset;
+  padding: 0;
+  text-align: unset;
+}
+
+.container {
+  max-width: 1271px;
+}
+
+.Residential-properties,
+.commercial-properties,
+.blog {
+  margin: 0 auto !important;
+  max-width: 1137px !important;
+}
+
+.OUREXCELLENCE .row .col {
+  box-shadow: 2px 2px 10px #aaaa;
+  margin: 0 10px;
+  padding: 30px;
+}
+
+.social-media a {
+  margin-left: 10px;
+}
+
+.about-company {
+  background-color: #fbfbfb;
+}
+
+.navbar-nav .inquire-now {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+footer .social-media {
+  display: none !important;
+}
+
+.Residential-properties .container,
+.blog {
+  padding: 0;
+}
+
+footer .container,
+footer .container .row div,
+footer .container .row form {
+  padding: 0;
+}
+
+.main-header nav {
+  background-color: #343a40;
+}
+
+@media only screen and (max-width: 1800px) {
+  .stats {
+    background-image: none;
+    padding: 20px 0;
+    background-color: #fcfcfc;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    padding: 0.5rem 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .commercial-properties div:first-child {
+    padding-top: 0 !important;
+  }
+  .Residential-properties .row,
+  .commercial-properties .row {
+    flex-wrap: nowrap !important;
+  }
+  .commercial-properties .card-overlay .card-img-overlay {
+    padding: 5px;
+  }
+  .commercial-properties .text-white,
+  .Residential-properties .bg-white {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  footer .container .row {
+    display: block;
+  }
+  .OUREXCELLENCE {
+    background-image: none;
+  }
+  .container {
+    max-width: 700px;
+  }
+  .navbar .inquire-now a {
+    padding: 14px;
+  }
+  .stats .col-md-6::before {
+    display: none;
+  }
+  .commercial-properties {
+    margin-bottom: 0 !important;
+  }
+  .navbar .container {
+    justify-content: end !important;
+  }
+  .Residential-properties {
+    padding-top: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .container {
+    max-width: 990px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1800px) {
+  .OUREXCELLENCE {
+    background-image: none;
+  }
+  .about-company.row .col-lg-6 {
+    display: block;
+  }
+  .about-company h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+  footer .container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .space {
+    margin: 0;
+  }
+
+  .about-company {
+    background-color: #f0f0f0;
+    padding: 30px 15px;
+  }
+  .top-header .container .row {
+    text-align: center;
+  }
+
+  .about-company .justify-content-center a {
+    padding: 7px 15px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .about-company.row .col-lg-6 {
+    width: 50%;
+  }
+  .about-company h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .space {
+    margin: 30px 0;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .about-company.row .col-lg-6:last-child {
+    padding-left: 50px !important;
+  }
+  .about-company h3 {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .blog .row {
+    flex-wrap: nowrap !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top-header .logo {
+    order: 1;
+    text-align: start;
+  }
+  .top-header .address {
+    order: 3;
+  }
+  .top-header .social-media {
+    order: 2;
+    padding: 0 15px !important;
+  }
+  .blog h5::before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .OUREXCELLENCE .container {
+    max-width: 700px;
+  }
+  .OUREXCELLENCE .container .row .col {
+    margin-top: 20px !important;
+  }
+  .OUREXCELLENCE {
+    margin: 0;
+  }
+  footer .container .col-lg-5 .col {
+    display: block !important;
+  }
+  .space {
+    margin: 30px 0;
+  }
+  footer {
+    margin-top: 0 !important;
+  }
+  .OUREXCELLENCE .col {
+    flex-basis: unset;
+  }
+  .container {
+    max-width: 700px !important;
+  }
+  .about-company {
+    background-color: #fcfcfc;
+  }
+  .navbar .inquire-now a {
+    padding: 14px;
+  }
+  .about-company.row .col-lg-6:last-child {
+    padding: 25px 5px !important;
+  }
+  .about-company h3 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+  .heading-before {
+    padding-bottom: 10px !important;
+    justify-content: center;
+  }
+  .about-company p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .about-company .justify-content-center a {
+    padding: 7px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .commercial-properties .heading-before {
+    margin-bottom: 10px !important;
+  }
+  .commercial-properties h3,
+  .Residential-properties h3 {
+    font-size: 20px;
+    text-align: center !important;
+  }
+  .commercial-properties p,
+  .Residential-properties p {
+    text-align: center !important;
+  }
+  .commercial-properties div:first-child {
+    padding-top: 20px;
+    margin-bottom: 0 !important;
+  }
+  .commercial-properties .container .col-lg-4 {
+    margin-bottom: 10px !important;
+  }
+  .Residential-properties .bg-white {
+    font-size: 17px;
+    padding: 10px 0;
+  }
+  .OUREXCELLENCE h5,
+  .OUREXCELLENCE p {
+    margin-bottom: 0 !important;
+  }
+  .OUREXCELLENCE {
+    padding-top: 0 !important;
+  }
+  .OUREXCELLENCE .row.mb-5 {
+    margin-bottom: 0 !important;
+  }
+  .blog h5 {
+    font-size: 15px;
+  }
+  .blog h2 {
+    font-size: 20px;
+    margin-bottom: 20px !important;
+  }
+  .about-company button {
+    text-align: center;
+  }
+  .Residential-properties h5 {
+    margin-bottom: 0 !important;
+  }
+  .Residential-properties .mb-5 {
+    margin-bottom: 0 !important;
+    padding: 20px 0;
+  }
+  footer .social-media {
+    display: block !important;
+  }
+  .top-header .social-media {
+    display: none !important;
+  }
+  .top-header .address {
+    display: none !important;
+  }
+  .main-header {
+    position: relative;
+  }
+  .main-header nav {
+    position: absolute;
+    right: 0;
+    top: 26px;
+    background: none;
+  }
+  .commercial-properties a,
+  .Residential-properties a {
+    width: 35% !important;
+  }
+  .navbar-collapse {
+    background-color: black;
+  }
+  .blog h5::before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .top-header .container .row div.col-sm-12 .text-uppercase:first-child {
+    text-align: center !important;
+  }
+  .top-header .container .row div.col-sm-12 .d-flex {
+    justify-content: start;
+  }
+}

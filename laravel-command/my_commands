@@ -1,0 +1,8 @@
+//Laravel commands
+php artisan serve //start laravel server
+php artisan migrate //run all migrations
+php artisan make:controller [Name]Controller //Make Controller
+php artisan make:model YourNewModel -mcr //make migration model controller and route
+//how to assign foreign key in migrations
+$table->unsignedBigInteger('category_id');
+$table->foreign('category_id')->references('id')->on('category')->onDelete('cascade');
