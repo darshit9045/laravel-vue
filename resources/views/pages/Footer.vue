@@ -41,7 +41,7 @@
 <!--}-->
 <!--</style>-->
 <template>
-  <footer class="footer-08" style="margin-top: 100px;">
+  <footer class="footer-08" style="margin-top: 400px;">
     <div class="container-fluid px-lg-5 bg-dark">
       <div class="container">
         <div class="col-md-12 py-5">

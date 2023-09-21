@@ -67,9 +67,20 @@ class PageController extends Controller
     }
 
     public function getResidentialProjectsData(){
-//        $data = Projects::all();
-        $data['ongoing'] = Projects::where(['project_status' => 'ongoing','category_id' => '2'])->get();
-        $data['completed'] = Projects::where(['project_status' => 'completed','category_id' => '2'])->get();
+        $data['ongoing'] =  Projects::select('projects.*','pages.name as page_name','pages.body as page_body','pages.slug as page_slug')
+            ->join('pages', function($join) {
+                $join->on('pages.id', '=', 'projects.page_id');
+            })
+            ->where(['project_status' => 'ongoing','category_id' => '2'])
+            ->get();
+        $data['completed'] = Projects::select('projects.*','pages.name as page_name','pages.body as page_body','pages.slug as page_slug')
+            ->join('pages', function($join) {
+                $join->on('pages.id', '=', 'projects.page_id');
+            })
+            ->where(['project_status' => 'completed','category_id' => '2'])
+            ->get();
+//        $data['ongoing'] = Projects::where(['project_status' => 'ongoing','category_id' => '2'])->get();
+//        $data['completed'] = Projects::where(['project_status' => 'completed','category_id' => '2'])->get();
         return response()->json($data);
     }
 
